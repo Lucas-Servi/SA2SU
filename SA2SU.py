@@ -37,4 +37,5 @@ def main():
     print("Writing table " + outdir)
     out.to_csv(outdir, sep = "\t")
     
-main()
+if __name__ == "__main__":
+    main()
